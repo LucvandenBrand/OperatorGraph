@@ -13,3 +13,6 @@ __pycache__/
 *.pyc
 *.suo
 
+# CLion IDE files
+.idea/
+cmake-build-debug/
