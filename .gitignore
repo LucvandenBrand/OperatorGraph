@@ -3,6 +3,7 @@
 [Oo]ut/
 OPT*/
 __pycache__/
+bin/
 
 *.i
 *.ii

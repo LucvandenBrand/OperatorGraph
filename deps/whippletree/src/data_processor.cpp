@@ -3,9 +3,9 @@
 
 #include <iostream>
 
-#include "..\include\data_processor.h"
-#include "..\include\CSVExporter.h"
-#include "..\include\procedureDescription.h"
+#include "../include/data_processor.h"
+#include "../include/CSVExporter.h"
+#include "../include/procedureDescription.h"
 
 
 namespace

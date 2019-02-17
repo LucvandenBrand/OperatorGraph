@@ -1,4 +1,5 @@
 #include "BaseDDS.h"
+#include <cstring>
 
 namespace PGA
 {

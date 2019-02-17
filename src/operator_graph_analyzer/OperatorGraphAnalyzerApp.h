@@ -1,15 +1,15 @@
 #pragma once
 
 //////////////////////////////////////////////////////////////////////////
-int main(unsigned int argc, const char** argv);
+int main(int argc, const char** argv);
 
 //////////////////////////////////////////////////////////////////////////
 class OperatorGraphAnalyzerApp
 {
 public:
-    int run(unsigned int argc, const char** argv);
+    int run(int argc, const char **argv);
 
-    friend int main(unsigned int argc, const char** argv);
+    friend int main(int argc, const char** argv);
     
 private:
     OperatorGraphAnalyzerApp() = default;

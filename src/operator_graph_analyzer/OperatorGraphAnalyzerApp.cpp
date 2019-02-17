@@ -193,7 +193,7 @@ PGA::Compiler::ProcedureList procedures = {
 };
 
 //////////////////////////////////////////////////////////////////////////
-int OperatorGraphAnalyzerApp::run(unsigned int argc, const char** argv)
+int OperatorGraphAnalyzerApp::run(int argc, const char **argv)
 {
     std::string pgaSourceFilePath;
 	std::string templateFilePath;

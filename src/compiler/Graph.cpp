@@ -557,7 +557,9 @@ namespace PGA
 
 		void Graph::getParents(std::map<size_t, std::set<size_t>>& parents) const
 		{
-			depthFirst(GetParents(parents));
+			auto getParents = new GetParents(parents);
+			depthFirst(*getParents);
+			delete getParents;
 		}
 
 		//////////////////////////////////////////////////////////////////////////

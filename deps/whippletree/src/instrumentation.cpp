@@ -1,6 +1,6 @@
-#include "..\include\instrumentation.h"
+#include "../include/instrumentation.h"
 
-#include "..\include\data_processor.h"
+#include "../include/data_processor.h"
 
 namespace Instrumentation
 {

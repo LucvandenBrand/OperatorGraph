@@ -55,3 +55,20 @@ Grammars written with __PGA-shape__  DSL can be analyzed by the auto-tunner and 
 The auto-tuner translates the DSL code to an intermediary representation - the __operator graph__ - and then exploits the graph structure 
 to find the best GPU scheduling for this grammar. 
 When the best scheduling is found, the auto-tuner translates back the __operator graph__ into C++/CUDA code.
+
+## Development Instructions
+In order to build the tools in this repository, you will need to follow the instructions below.
+
+### Dependencies
+In order to build these sources, you will need to install the following dependencies.
+
+- **CMake**: CMake or any IDE supporting CMake files needs to be installed on your machine. It allows you to properly build the sources.
+- **CUDA**: Of course your machine needs to have the CUDA toolkit installed. Windows and most linux users can simply follow the instructions found [here](https://developer.nvidia.com/cuda-downloads).
+- **BOOST**: These C++ sources rely on the BOOST library. Installation instructions can be founde [here](https://www.boost.org/doc/libs/1_69_0/more/getting_started/unix-variants.html).
+
+### Building on Linux
+Building on linux can be done by opening the project in any CMake compatible environment, or by following the steps below:
+
+1. Go to the root of the repository and create a `build` directory: `mkdir build`
+2. Go into the build directory (`cd build`) and call cmake: `cmake ..`.
+3. Build the sources with make: `make`.

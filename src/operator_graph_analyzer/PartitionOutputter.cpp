@@ -1,9 +1,14 @@
 #include <sstream>
 #include <fstream>
-#include <windows.h>
 
 #include <pga/core/StringUtils.h>
 #include <pga/compiler/CodeGenerator.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+
+#ifdef _WIN32
+#include <direct.h>
+#endif
 
 #include "PartitionOutputter.h"
 
@@ -66,7 +71,15 @@ void FilesPartitionOutputter::processPartition(size_t i, PGA::Compiler::Graph::P
 	if (firstTime)
 	{
 		std::string dataDir(outputDir);
-		if (!CreateDirectory(outputDir.c_str(), 0) && GetLastError() != ERROR_ALREADY_EXISTS)
+
+		int mkdirResult;
+        #if defined(_WIN32)
+        mkdirResult = _mkdir(outputDir.c_str());
+        #else
+        mkdirResult = mkdir(outputDir.c_str(), 0777);
+        #endif
+
+        if (mkdirResult != 0)
 		{
 			std::cerr << "error creating directory: " << outputDir << std::endl;
 			failSilently = true;

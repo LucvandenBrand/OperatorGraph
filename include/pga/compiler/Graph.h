@@ -435,7 +435,7 @@ namespace PGA
 				const std::set<size_t>& neverCutEdges;
 				std::set<size_t>& alwaysCutEdges;
 
-				FindCycleEdges(const std::set<size_t>& neverCutEdges, std::set<size_t>& alwaysCutEdges = std::set<size_t>()) : neverCutEdges(neverCutEdges), alwaysCutEdges(alwaysCutEdges) {}
+                FindCycleEdges(const std::set<size_t>& neverCutEdges, std::set<size_t>& alwaysCutEdges) : neverCutEdges(neverCutEdges), alwaysCutEdges(alwaysCutEdges) {}
 
 				virtual bool visit(size_t i, const PGA::Compiler::Vertex_LW& vertex)
 				{
