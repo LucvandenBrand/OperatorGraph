@@ -17,3 +17,6 @@ bin/
 # CLion IDE files
 .idea/
 cmake-build-debug/
+
+# Visual Studio Code IDE files
+.vs
