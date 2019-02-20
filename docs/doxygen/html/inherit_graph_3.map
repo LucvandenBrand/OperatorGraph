@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="11,143,106,170"/>
+<area shape="rect" id="node2" href="$struct_dot_graph_visitor.html" title=" " alt="" coords="198,253,313,279"/>
+<area shape="rect" id="node3" href="$struct_search_heuristics_1_1_one_to_one_operator_edges_heuristic.html" title=" " alt="" coords="160,5,351,47"/>
+<area shape="rect" id="node4" href="$struct_search_heuristics_1_1_random_rule_heuristic.html" title=" " alt="" coords="167,71,344,112"/>
+<area shape="rect" id="node5" href="$struct_search_heuristics_1_1_subtree_order_heuristic.html" title=" " alt="" coords="168,136,343,177"/>
+<area shape="rect" id="node6" href="$struct_vertices_shared_by_cut_edges.html" title=" " alt="" coords="163,202,347,229"/>
+<area shape="rect" id="node7" title=" " alt="" coords="5,278,112,305"/>
+<area shape="rect" id="node8" href="$struct_connection_visitor.html" title=" " alt="" coords="193,303,317,330"/>
+</map>

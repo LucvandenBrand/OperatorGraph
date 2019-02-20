@@ -1,0 +1,14 @@
+<map id="PGA::Compiler::Parser::PGAGrammar" name="PGA::Compiler::Parser::PGAGrammar">
+<area shape="rect" id="node1" title=" " alt="" coords="679,311,833,352"/>
+<area shape="rect" id="node2" title=" " alt="" coords="276,5,448,105"/>
+<area shape="rect" id="node3" href="$struct_p_g_a_1_1_compiler_1_1_parser_1_1_p_g_a_grammar_1_1_shape_attribute_names_list.html" title=" " alt="" coords="259,130,465,186"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,252,185,293"/>
+<area shape="rect" id="node7" href="$struct_p_g_a_1_1_compiler_1_1_parser_1_1_p_g_a_grammar_1_1_shape_type_names_list.html" title=" " alt="" coords="239,211,485,252"/>
+<area shape="rect" id="node10" href="$struct_p_g_a_1_1_compiler_1_1_parser_1_1_p_g_a_grammar_1_1_operations_names_list.html" title=" " alt="" coords="239,276,485,317"/>
+<area shape="rect" id="node12" href="$struct_p_g_a_1_1_compiler_1_1_parser_1_1_p_g_a_grammar_1_1_operator_names_list.html" title=" " alt="" coords="246,341,478,383"/>
+<area shape="rect" id="node5" href="$struct_p_g_a_1_1_compiler_1_1_parser_1_1_p_g_a_grammar_1_1_repeat_mode_names_list.html" title=" " alt="" coords="235,407,489,448"/>
+<area shape="rect" id="node6" title=" " alt="" coords="19,431,171,472"/>
+<area shape="rect" id="node11" href="$struct_p_g_a_1_1_compiler_1_1_parser_1_1_p_g_a_grammar_1_1_axis_names_list.html" title=" " alt="" coords="258,472,466,513"/>
+<area shape="rect" id="node8" href="$struct_p_g_a_1_1_compiler_1_1_parser_1_1_p_g_a_grammar_1_1_no_successor_operator_names_list.html" title=" " alt="" coords="238,538,486,594"/>
+<area shape="rect" id="node9" title=" " alt="" coords="30,545,161,587"/>
+</map>
